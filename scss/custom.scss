@@ -1,0 +1,31 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Your variable overrides
+$fa-font-path:        "./assets/fonts/webfonts";
+
+$font-size-base:              3rem !default; // Assumes the browser default, typically `16px`
+
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap');
+
+body {
+  font-family: 'Annie Use Your Telescope', cursive;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
