@@ -4,7 +4,7 @@
 // Your variable overrides
 $fa-font-path:        "./assets/fonts/webfonts";
 
-$font-size-base:              3rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              2rem !default; // Assumes the browser default, typically `16px`
 
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
